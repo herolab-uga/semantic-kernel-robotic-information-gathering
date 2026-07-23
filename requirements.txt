@@ -1,0 +1,16 @@
+# Core stack (semantic kernel, GP inference, simulator, verification, temporal outlier detection)
+numpy>=1.21
+scipy>=1.7
+scikit-learn>=1.0
+shapely>=2.0
+matplotlib>=3.5
+pyyaml>=5.4
+tqdm>=4.60
+
+# --- Optional extras (install as needed) ---
+# Learned-kernel baselines (AK, DKL):
+#   pip install "torch>=2.0" "gpytorch>=1.11"
+# Scene-LLM few-shot prompting:
+#   pip install "openai>=1.0"
+# QLoRA fine-tuning:
+#   pip install "torch>=2.0" "transformers>=4.40" "peft>=0.10" "bitsandbytes>=0.43" "accelerate>=0.30" "datasets>=2.18"

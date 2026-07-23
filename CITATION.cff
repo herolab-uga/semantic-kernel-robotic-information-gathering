@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the paper below."
+title: "SK: Semantic Kernel for Robotic Information Gathering"
+authors:
+  - family-names: Ghanta
+    given-names: Sai Krishna
+    affiliation: "University of Georgia"
+  - family-names: Parasuraman
+    given-names: Ramviyas
+    affiliation: "University of Georgia"
+version: 0.1.0
+date-released: 2026-01-01
+license: MIT
+keywords:
+  - gaussian-process
+  - semantic-kernel
+  - informative-path-planning
+  - large-language-models
+  - robotics
+preferred-citation:
+  type: conference-paper
+  title: "SK: Semantic Kernel for Robotic Information Gathering"
+  authors:
+    - family-names: Ghanta
+      given-names: Sai Krishna
+    - family-names: Parasuraman
+      given-names: Ramviyas
+  year: 2026

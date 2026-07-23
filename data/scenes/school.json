@@ -1,0 +1,2903 @@
+{
+  "rooms": {
+    "ClassroomA": {
+      "corners": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          5.5,
+          0.0
+        ],
+        [
+          5.5,
+          3.9583
+        ],
+        [
+          0.0,
+          3.9583
+        ]
+      ],
+      "walls": [
+        {
+          "segment": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              5.5,
+              0.0
+            ]
+          ],
+          "material": "drywall"
+        },
+        {
+          "segment": [
+            [
+              5.5,
+              0.0
+            ],
+            [
+              5.5,
+              3.9583
+            ]
+          ],
+          "material": "drywall"
+        },
+        {
+          "segment": [
+            [
+              5.5,
+              3.9583
+            ],
+            [
+              0.0,
+              3.9583
+            ]
+          ],
+          "material": "drywall"
+        },
+        {
+          "segment": [
+            [
+              0.0,
+              3.9583
+            ],
+            [
+              0.0,
+              0.0
+            ]
+          ],
+          "material": "drywall"
+        }
+      ]
+    },
+    "DiscussionRoom1": {
+      "corners": [
+        [
+          5.5,
+          0.0
+        ],
+        [
+          9.5,
+          0.0
+        ],
+        [
+          9.5,
+          3.125
+        ],
+        [
+          5.5,
+          3.125
+        ]
+      ],
+      "walls": [
+        {
+          "segment": [
+            [
+              5.5,
+              0.0
+            ],
+            [
+              9.5,
+              0.0
+            ]
+          ],
+          "material": "drywall"
+        },
+        {
+          "segment": [
+            [
+              9.5,
+              0.0
+            ],
+            [
+              9.5,
+              3.125
+            ]
+          ],
+          "material": "drywall"
+        },
+        {
+          "segment": [
+            [
+              9.5,
+              3.125
+            ],
+            [
+              5.5,
+              3.125
+            ]
+          ],
+          "material": "drywall"
+        },
+        {
+          "segment": [
+            [
+              5.5,
+              3.125
+            ],
+            [
+              5.5,
+              0.0
+            ]
+          ],
+          "material": "drywall"
+        }
+      ]
+    },
+    "ClassroomB": {
+      "corners": [
+        [
+          9.5,
+          0.0
+        ],
+        [
+          16.0,
+          0.0
+        ],
+        [
+          16.0,
+          3.9583
+        ],
+        [
+          9.5,
+          3.9583
+        ]
+      ],
+      "walls": [
+        {
+          "segment": [
+            [
+              9.5,
+              0.0
+            ],
+            [
+              16.0,
+              0.0
+            ]
+          ],
+          "material": "drywall"
+        },
+        {
+          "segment": [
+            [
+              16.0,
+              0.0
+            ],
+            [
+              16.0,
+              3.9583
+            ]
+          ],
+          "material": "drywall"
+        },
+        {
+          "segment": [
+            [
+              16.0,
+              3.9583
+            ],
+            [
+              9.5,
+              3.9583
+            ]
+          ],
+          "material": "drywall"
+        },
+        {
+          "segment": [
+            [
+              9.5,
+              3.9583
+            ],
+            [
+              9.5,
+              0.0
+            ]
+          ],
+          "material": "drywall"
+        }
+      ]
+    },
+    "ClassroomCChairsOnly": {
+      "corners": [
+        [
+          16.0,
+          0.0
+        ],
+        [
+          22.0,
+          0.0
+        ],
+        [
+          22.0,
+          3.9583
+        ],
+        [
+          16.0,
+          3.9583
+        ]
+      ],
+      "walls": [
+        {
+          "segment": [
+            [
+              16.0,
+              0.0
+            ],
+            [
+              22.0,
+              0.0
+            ]
+          ],
+          "material": "drywall"
+        },
+        {
+          "segment": [
+            [
+              22.0,
+              0.0
+            ],
+            [
+              22.0,
+              3.9583
+            ]
+          ],
+          "material": "drywall"
+        },
+        {
+          "segment": [
+            [
+              22.0,
+              3.9583
+            ],
+            [
+              16.0,
+              3.9583
+            ]
+          ],
+          "material": "drywall"
+        },
+        {
+          "segment": [
+            [
+              16.0,
+              3.9583
+            ],
+            [
+              16.0,
+              0.0
+            ]
+          ],
+          "material": "drywall"
+        }
+      ]
+    },
+    "ClassroomD": {
+      "corners": [
+        [
+          0.0,
+          6.0417
+        ],
+        [
+          6.0,
+          6.0417
+        ],
+        [
+          6.0,
+          10.0
+        ],
+        [
+          0.0,
+          10.0
+        ]
+      ],
+      "walls": [
+        {
+          "segment": [
+            [
+              0.0,
+              6.0417
+            ],
+            [
+              6.0,
+              6.0417
+            ]
+          ],
+          "material": "drywall"
+        },
+        {
+          "segment": [
+            [
+              6.0,
+              6.0417
+            ],
+            [
+              6.0,
+              10.0
+            ]
+          ],
+          "material": "drywall"
+        },
+        {
+          "segment": [
+            [
+              6.0,
+              10.0
+            ],
+            [
+              0.0,
+              10.0
+            ]
+          ],
+          "material": "drywall"
+        },
+        {
+          "segment": [
+            [
+              0.0,
+              10.0
+            ],
+            [
+              0.0,
+              6.0417
+            ]
+          ],
+          "material": "drywall"
+        }
+      ]
+    },
+    "ClassroomEChairsOnly": {
+      "corners": [
+        [
+          6.0,
+          6.0417
+        ],
+        [
+          11.0,
+          6.0417
+        ],
+        [
+          11.0,
+          10.0
+        ],
+        [
+          6.0,
+          10.0
+        ]
+      ],
+      "walls": [
+        {
+          "segment": [
+            [
+              6.0,
+              6.0417
+            ],
+            [
+              11.0,
+              6.0417
+            ]
+          ],
+          "material": "drywall"
+        },
+        {
+          "segment": [
+            [
+              11.0,
+              6.0417
+            ],
+            [
+              11.0,
+              10.0
+            ]
+          ],
+          "material": "drywall"
+        },
+        {
+          "segment": [
+            [
+              11.0,
+              10.0
+            ],
+            [
+              6.0,
+              10.0
+            ]
+          ],
+          "material": "drywall"
+        },
+        {
+          "segment": [
+            [
+              6.0,
+              10.0
+            ],
+            [
+              6.0,
+              6.0417
+            ]
+          ],
+          "material": "drywall"
+        }
+      ]
+    },
+    "DiscussionRoom2": {
+      "corners": [
+        [
+          11.0,
+          6.0417
+        ],
+        [
+          15.0,
+          6.0417
+        ],
+        [
+          15.0,
+          8.9583
+        ],
+        [
+          11.0,
+          8.9583
+        ]
+      ],
+      "walls": [
+        {
+          "segment": [
+            [
+              11.0,
+              6.0417
+            ],
+            [
+              15.0,
+              6.0417
+            ]
+          ],
+          "material": "drywall"
+        },
+        {
+          "segment": [
+            [
+              15.0,
+              6.0417
+            ],
+            [
+              15.0,
+              8.9583
+            ]
+          ],
+          "material": "drywall"
+        },
+        {
+          "segment": [
+            [
+              15.0,
+              8.9583
+            ],
+            [
+              11.0,
+              8.9583
+            ]
+          ],
+          "material": "drywall"
+        },
+        {
+          "segment": [
+            [
+              11.0,
+              8.9583
+            ],
+            [
+              11.0,
+              6.0417
+            ]
+          ],
+          "material": "drywall"
+        }
+      ]
+    },
+    "ClassroomFChairsOnly": {
+      "corners": [
+        [
+          15.0,
+          6.0417
+        ],
+        [
+          22.0,
+          6.0417
+        ],
+        [
+          22.0,
+          10.0
+        ],
+        [
+          15.0,
+          10.0
+        ]
+      ],
+      "walls": [
+        {
+          "segment": [
+            [
+              15.0,
+              6.0417
+            ],
+            [
+              22.0,
+              6.0417
+            ]
+          ],
+          "material": "drywall"
+        },
+        {
+          "segment": [
+            [
+              22.0,
+              6.0417
+            ],
+            [
+              22.0,
+              10.0
+            ]
+          ],
+          "material": "drywall"
+        },
+        {
+          "segment": [
+            [
+              22.0,
+              10.0
+            ],
+            [
+              15.0,
+              10.0
+            ]
+          ],
+          "material": "drywall"
+        },
+        {
+          "segment": [
+            [
+              15.0,
+              10.0
+            ],
+            [
+              15.0,
+              6.0417
+            ]
+          ],
+          "material": "drywall"
+        }
+      ]
+    },
+    "CentralCorridor": {
+      "corners": [
+        [
+          0.0,
+          3.9583
+        ],
+        [
+          22.0,
+          3.9583
+        ],
+        [
+          22.0,
+          6.0417
+        ],
+        [
+          0.0,
+          6.0417
+        ]
+      ],
+      "walls": [
+        {
+          "segment": [
+            [
+              0.0,
+              3.9583
+            ],
+            [
+              22.0,
+              3.9583
+            ]
+          ],
+          "material": "drywall"
+        },
+        {
+          "segment": [
+            [
+              22.0,
+              3.9583
+            ],
+            [
+              22.0,
+              6.0417
+            ]
+          ],
+          "material": "drywall"
+        },
+        {
+          "segment": [
+            [
+              22.0,
+              6.0417
+            ],
+            [
+              0.0,
+              6.0417
+            ]
+          ],
+          "material": "drywall"
+        },
+        {
+          "segment": [
+            [
+              0.0,
+              6.0417
+            ],
+            [
+              0.0,
+              3.9583
+            ]
+          ],
+          "material": "drywall"
+        }
+      ]
+    }
+  },
+  "objects": [
+    {
+      "name": "Teaching Board",
+      "pos": [
+        2.75,
+        0.1042
+      ],
+      "size": [
+        1.5,
+        0.0417
+      ],
+      "material": "laminate"
+    },
+    {
+      "name": "Podium",
+      "pos": [
+        2.75,
+        0.4375
+      ],
+      "size": [
+        0.4,
+        0.25
+      ],
+      "material": "wood"
+    },
+    {
+      "name": "Bench 1-1",
+      "pos": [
+        0.55,
+        0.9167
+      ],
+      "size": [
+        0.6,
+        0.25
+      ],
+      "material": "wood"
+    },
+    {
+      "name": "Bench 1-2",
+      "pos": [
+        1.35,
+        0.9167
+      ],
+      "size": [
+        0.6,
+        0.25
+      ],
+      "material": "wood"
+    },
+    {
+      "name": "Bench 1-3",
+      "pos": [
+        2.15,
+        0.9167
+      ],
+      "size": [
+        0.6,
+        0.25
+      ],
+      "material": "wood"
+    },
+    {
+      "name": "Bench 1-4",
+      "pos": [
+        2.95,
+        0.9167
+      ],
+      "size": [
+        0.6,
+        0.25
+      ],
+      "material": "wood"
+    },
+    {
+      "name": "Bench 1-5",
+      "pos": [
+        3.75,
+        0.9167
+      ],
+      "size": [
+        0.6,
+        0.25
+      ],
+      "material": "wood"
+    },
+    {
+      "name": "Bench 2-1",
+      "pos": [
+        0.55,
+        1.4167
+      ],
+      "size": [
+        0.6,
+        0.25
+      ],
+      "material": "wood"
+    },
+    {
+      "name": "Bench 2-2",
+      "pos": [
+        1.35,
+        1.4167
+      ],
+      "size": [
+        0.6,
+        0.25
+      ],
+      "material": "wood"
+    },
+    {
+      "name": "Bench 2-3",
+      "pos": [
+        2.15,
+        1.4167
+      ],
+      "size": [
+        0.6,
+        0.25
+      ],
+      "material": "wood"
+    },
+    {
+      "name": "Bench 2-4",
+      "pos": [
+        2.95,
+        1.4167
+      ],
+      "size": [
+        0.6,
+        0.25
+      ],
+      "material": "wood"
+    },
+    {
+      "name": "Bench 2-5",
+      "pos": [
+        3.75,
+        1.4167
+      ],
+      "size": [
+        0.6,
+        0.25
+      ],
+      "material": "wood"
+    },
+    {
+      "name": "Chair 1-1",
+      "pos": [
+        0.4,
+        1.6667
+      ],
+      "size": [
+        0.3,
+        0.25
+      ],
+      "material": "plastic"
+    },
+    {
+      "name": "Chair 1-2",
+      "pos": [
+        1.0,
+        1.6667
+      ],
+      "size": [
+        0.3,
+        0.25
+      ],
+      "material": "plastic"
+    },
+    {
+      "name": "Chair 1-3",
+      "pos": [
+        1.6,
+        1.6667
+      ],
+      "size": [
+        0.3,
+        0.25
+      ],
+      "material": "plastic"
+    },
+    {
+      "name": "Chair 1-4",
+      "pos": [
+        2.2,
+        1.6667
+      ],
+      "size": [
+        0.3,
+        0.25
+      ],
+      "material": "plastic"
+    },
+    {
+      "name": "Chair 1-5",
+      "pos": [
+        2.8,
+        1.6667
+      ],
+      "size": [
+        0.3,
+        0.25
+      ],
+      "material": "plastic"
+    },
+    {
+      "name": "Chair 1-6",
+      "pos": [
+        3.4,
+        1.6667
+      ],
+      "size": [
+        0.3,
+        0.25
+      ],
+      "material": "plastic"
+    },
+    {
+      "name": "Chair 1-7",
+      "pos": [
+        4.0,
+        1.6667
+      ],
+      "size": [
+        0.3,
+        0.25
+      ],
+      "material": "plastic"
+    },
+    {
+      "name": "Chair 2-1",
+      "pos": [
+        0.4,
+        2.1667
+      ],
+      "size": [
+        0.3,
+        0.25
+      ],
+      "material": "plastic"
+    },
+    {
+      "name": "Chair 2-2",
+      "pos": [
+        1.0,
+        2.1667
+      ],
+      "size": [
+        0.3,
+        0.25
+      ],
+      "material": "plastic"
+    },
+    {
+      "name": "Chair 2-3",
+      "pos": [
+        1.6,
+        2.1667
+      ],
+      "size": [
+        0.3,
+        0.25
+      ],
+      "material": "plastic"
+    },
+    {
+      "name": "Chair 2-4",
+      "pos": [
+        2.2,
+        2.1667
+      ],
+      "size": [
+        0.3,
+        0.25
+      ],
+      "material": "plastic"
+    },
+    {
+      "name": "Chair 2-5",
+      "pos": [
+        2.8,
+        2.1667
+      ],
+      "size": [
+        0.3,
+        0.25
+      ],
+      "material": "plastic"
+    },
+    {
+      "name": "Chair 2-6",
+      "pos": [
+        3.4,
+        2.1667
+      ],
+      "size": [
+        0.3,
+        0.25
+      ],
+      "material": "plastic"
+    },
+    {
+      "name": "Chair 2-7",
+      "pos": [
+        4.0,
+        2.1667
+      ],
+      "size": [
+        0.3,
+        0.25
+      ],
+      "material": "plastic"
+    },
+    {
+      "name": "Teaching Board",
+      "pos": [
+        5.625,
+        1.5625
+      ],
+      "size": [
+        1.5,
+        0.0417
+      ],
+      "material": "laminate"
+    },
+    {
+      "name": "Podium",
+      "pos": [
+        6.025,
+        1.5625
+      ],
+      "size": [
+        0.4,
+        0.25
+      ],
+      "material": "wood"
+    },
+    {
+      "name": "Round Discussion Table",
+      "pos": [
+        7.5,
+        1.5625
+      ],
+      "size": [
+        0.7,
+        0.5833
+      ],
+      "material": "wood"
+    },
+    {
+      "name": "Chair 1",
+      "pos": [
+        8.875,
+        1.5625
+      ],
+      "size": [
+        0.3,
+        0.25
+      ],
+      "material": "plastic"
+    },
+    {
+      "name": "Chair 2",
+      "pos": [
+        8.19,
+        2.5542
+      ],
+      "size": [
+        0.3,
+        0.25
+      ],
+      "material": "plastic"
+    },
+    {
+      "name": "Chair 3",
+      "pos": [
+        6.81,
+        2.5542
+      ],
+      "size": [
+        0.3,
+        0.25
+      ],
+      "material": "plastic"
+    },
+    {
+      "name": "Chair 4",
+      "pos": [
+        6.125,
+        1.5625
+      ],
+      "size": [
+        0.3,
+        0.25
+      ],
+      "material": "plastic"
+    },
+    {
+      "name": "Chair 5",
+      "pos": [
+        6.81,
+        0.5708
+      ],
+      "size": [
+        0.3,
+        0.25
+      ],
+      "material": "plastic"
+    },
+    {
+      "name": "Chair 6",
+      "pos": [
+        8.19,
+        0.5708
+      ],
+      "size": [
+        0.3,
+        0.25
+      ],
+      "material": "plastic"
+    },
+    {
+      "name": "Teaching Board",
+      "pos": [
+        12.75,
+        0.1042
+      ],
+      "size": [
+        1.5,
+        0.0417
+      ],
+      "material": "laminate"
+    },
+    {
+      "name": "Podium",
+      "pos": [
+        12.75,
+        0.4375
+      ],
+      "size": [
+        0.4,
+        0.25
+      ],
+      "material": "wood"
+    },
+    {
+      "name": "Bench 1-1",
+      "pos": [
+        10.05,
+        0.9167
+      ],
+      "size": [
+        0.6,
+        0.25
+      ],
+      "material": "wood"
+    },
+    {
+      "name": "Bench 1-2",
+      "pos": [
+        10.85,
+        0.9167
+      ],
+      "size": [
+        0.6,
+        0.25
+      ],
+      "material": "wood"
+    },
+    {
+      "name": "Bench 1-3",
+      "pos": [
+        11.65,
+        0.9167
+      ],
+      "size": [
+        0.6,
+        0.25
+      ],
+      "material": "wood"
+    },
+    {
+      "name": "Bench 1-4",
+      "pos": [
+        12.45,
+        0.9167
+      ],
+      "size": [
+        0.6,
+        0.25
+      ],
+      "material": "wood"
+    },
+    {
+      "name": "Bench 1-5",
+      "pos": [
+        13.25,
+        0.9167
+      ],
+      "size": [
+        0.6,
+        0.25
+      ],
+      "material": "wood"
+    },
+    {
+      "name": "Bench 1-6",
+      "pos": [
+        14.05,
+        0.9167
+      ],
+      "size": [
+        0.6,
+        0.25
+      ],
+      "material": "wood"
+    },
+    {
+      "name": "Bench 2-1",
+      "pos": [
+        10.05,
+        1.4167
+      ],
+      "size": [
+        0.6,
+        0.25
+      ],
+      "material": "wood"
+    },
+    {
+      "name": "Bench 2-2",
+      "pos": [
+        10.85,
+        1.4167
+      ],
+      "size": [
+        0.6,
+        0.25
+      ],
+      "material": "wood"
+    },
+    {
+      "name": "Bench 2-3",
+      "pos": [
+        11.65,
+        1.4167
+      ],
+      "size": [
+        0.6,
+        0.25
+      ],
+      "material": "wood"
+    },
+    {
+      "name": "Bench 2-4",
+      "pos": [
+        12.45,
+        1.4167
+      ],
+      "size": [
+        0.6,
+        0.25
+      ],
+      "material": "wood"
+    },
+    {
+      "name": "Bench 2-5",
+      "pos": [
+        13.25,
+        1.4167
+      ],
+      "size": [
+        0.6,
+        0.25
+      ],
+      "material": "wood"
+    },
+    {
+      "name": "Bench 2-6",
+      "pos": [
+        14.05,
+        1.4167
+      ],
+      "size": [
+        0.6,
+        0.25
+      ],
+      "material": "wood"
+    },
+    {
+      "name": "Chair 1-1",
+      "pos": [
+        9.9,
+        1.6667
+      ],
+      "size": [
+        0.3,
+        0.25
+      ],
+      "material": "plastic"
+    },
+    {
+      "name": "Chair 1-2",
+      "pos": [
+        10.5,
+        1.6667
+      ],
+      "size": [
+        0.3,
+        0.25
+      ],
+      "material": "plastic"
+    },
+    {
+      "name": "Chair 1-3",
+      "pos": [
+        11.1,
+        1.6667
+      ],
+      "size": [
+        0.3,
+        0.25
+      ],
+      "material": "plastic"
+    },
+    {
+      "name": "Chair 1-4",
+      "pos": [
+        11.7,
+        1.6667
+      ],
+      "size": [
+        0.3,
+        0.25
+      ],
+      "material": "plastic"
+    },
+    {
+      "name": "Chair 1-5",
+      "pos": [
+        12.3,
+        1.6667
+      ],
+      "size": [
+        0.3,
+        0.25
+      ],
+      "material": "plastic"
+    },
+    {
+      "name": "Chair 1-6",
+      "pos": [
+        12.9,
+        1.6667
+      ],
+      "size": [
+        0.3,
+        0.25
+      ],
+      "material": "plastic"
+    },
+    {
+      "name": "Chair 1-7",
+      "pos": [
+        13.5,
+        1.6667
+      ],
+      "size": [
+        0.3,
+        0.25
+      ],
+      "material": "plastic"
+    },
+    {
+      "name": "Chair 1-8",
+      "pos": [
+        14.1,
+        1.6667
+      ],
+      "size": [
+        0.3,
+        0.25
+      ],
+      "material": "plastic"
+    },
+    {
+      "name": "Chair 1-9",
+      "pos": [
+        14.7,
+        1.6667
+      ],
+      "size": [
+        0.3,
+        0.25
+      ],
+      "material": "plastic"
+    },
+    {
+      "name": "Chair 2-1",
+      "pos": [
+        9.9,
+        2.1667
+      ],
+      "size": [
+        0.3,
+        0.25
+      ],
+      "material": "plastic"
+    },
+    {
+      "name": "Chair 2-2",
+      "pos": [
+        10.5,
+        2.1667
+      ],
+      "size": [
+        0.3,
+        0.25
+      ],
+      "material": "plastic"
+    },
+    {
+      "name": "Chair 2-3",
+      "pos": [
+        11.1,
+        2.1667
+      ],
+      "size": [
+        0.3,
+        0.25
+      ],
+      "material": "plastic"
+    },
+    {
+      "name": "Chair 2-4",
+      "pos": [
+        11.7,
+        2.1667
+      ],
+      "size": [
+        0.3,
+        0.25
+      ],
+      "material": "plastic"
+    },
+    {
+      "name": "Chair 2-5",
+      "pos": [
+        12.3,
+        2.1667
+      ],
+      "size": [
+        0.3,
+        0.25
+      ],
+      "material": "plastic"
+    },
+    {
+      "name": "Chair 2-6",
+      "pos": [
+        12.9,
+        2.1667
+      ],
+      "size": [
+        0.3,
+        0.25
+      ],
+      "material": "plastic"
+    },
+    {
+      "name": "Chair 2-7",
+      "pos": [
+        13.5,
+        2.1667
+      ],
+      "size": [
+        0.3,
+        0.25
+      ],
+      "material": "plastic"
+    },
+    {
+      "name": "Chair 2-8",
+      "pos": [
+        14.1,
+        2.1667
+      ],
+      "size": [
+        0.3,
+        0.25
+      ],
+      "material": "plastic"
+    },
+    {
+      "name": "Chair 2-9",
+      "pos": [
+        14.7,
+        2.1667
+      ],
+      "size": [
+        0.3,
+        0.25
+      ],
+      "material": "plastic"
+    },
+    {
+      "name": "Teaching Board",
+      "pos": [
+        19.0,
+        0.1042
+      ],
+      "size": [
+        1.5,
+        0.0417
+      ],
+      "material": "laminate"
+    },
+    {
+      "name": "Podium",
+      "pos": [
+        19.0,
+        0.4375
+      ],
+      "size": [
+        0.4,
+        0.25
+      ],
+      "material": "wood"
+    },
+    {
+      "name": "Chair 1-1",
+      "pos": [
+        16.4,
+        0.9167
+      ],
+      "size": [
+        0.3,
+        0.25
+      ],
+      "material": "plastic"
+    },
+    {
+      "name": "Chair 1-2",
+      "pos": [
+        17.0,
+        0.9167
+      ],
+      "size": [
+        0.3,
+        0.25
+      ],
+      "material": "plastic"
+    },
+    {
+      "name": "Chair 1-3",
+      "pos": [
+        17.6,
+        0.9167
+      ],
+      "size": [
+        0.3,
+        0.25
+      ],
+      "material": "plastic"
+    },
+    {
+      "name": "Chair 1-4",
+      "pos": [
+        18.2,
+        0.9167
+      ],
+      "size": [
+        0.3,
+        0.25
+      ],
+      "material": "plastic"
+    },
+    {
+      "name": "Chair 1-5",
+      "pos": [
+        18.8,
+        0.9167
+      ],
+      "size": [
+        0.3,
+        0.25
+      ],
+      "material": "plastic"
+    },
+    {
+      "name": "Chair 1-6",
+      "pos": [
+        19.4,
+        0.9167
+      ],
+      "size": [
+        0.3,
+        0.25
+      ],
+      "material": "plastic"
+    },
+    {
+      "name": "Chair 1-7",
+      "pos": [
+        20.0,
+        0.9167
+      ],
+      "size": [
+        0.3,
+        0.25
+      ],
+      "material": "plastic"
+    },
+    {
+      "name": "Chair 1-8",
+      "pos": [
+        20.6,
+        0.9167
+      ],
+      "size": [
+        0.3,
+        0.25
+      ],
+      "material": "plastic"
+    },
+    {
+      "name": "Chair 2-1",
+      "pos": [
+        16.4,
+        1.4167
+      ],
+      "size": [
+        0.3,
+        0.25
+      ],
+      "material": "plastic"
+    },
+    {
+      "name": "Chair 2-2",
+      "pos": [
+        17.0,
+        1.4167
+      ],
+      "size": [
+        0.3,
+        0.25
+      ],
+      "material": "plastic"
+    },
+    {
+      "name": "Chair 2-3",
+      "pos": [
+        17.6,
+        1.4167
+      ],
+      "size": [
+        0.3,
+        0.25
+      ],
+      "material": "plastic"
+    },
+    {
+      "name": "Chair 2-4",
+      "pos": [
+        18.2,
+        1.4167
+      ],
+      "size": [
+        0.3,
+        0.25
+      ],
+      "material": "plastic"
+    },
+    {
+      "name": "Chair 2-5",
+      "pos": [
+        18.8,
+        1.4167
+      ],
+      "size": [
+        0.3,
+        0.25
+      ],
+      "material": "plastic"
+    },
+    {
+      "name": "Chair 2-6",
+      "pos": [
+        19.4,
+        1.4167
+      ],
+      "size": [
+        0.3,
+        0.25
+      ],
+      "material": "plastic"
+    },
+    {
+      "name": "Chair 2-7",
+      "pos": [
+        20.0,
+        1.4167
+      ],
+      "size": [
+        0.3,
+        0.25
+      ],
+      "material": "plastic"
+    },
+    {
+      "name": "Chair 2-8",
+      "pos": [
+        20.6,
+        1.4167
+      ],
+      "size": [
+        0.3,
+        0.25
+      ],
+      "material": "plastic"
+    },
+    {
+      "name": "Chair 3-1",
+      "pos": [
+        16.4,
+        1.9167
+      ],
+      "size": [
+        0.3,
+        0.25
+      ],
+      "material": "plastic"
+    },
+    {
+      "name": "Chair 3-2",
+      "pos": [
+        17.0,
+        1.9167
+      ],
+      "size": [
+        0.3,
+        0.25
+      ],
+      "material": "plastic"
+    },
+    {
+      "name": "Chair 3-3",
+      "pos": [
+        17.6,
+        1.9167
+      ],
+      "size": [
+        0.3,
+        0.25
+      ],
+      "material": "plastic"
+    },
+    {
+      "name": "Chair 3-4",
+      "pos": [
+        18.2,
+        1.9167
+      ],
+      "size": [
+        0.3,
+        0.25
+      ],
+      "material": "plastic"
+    },
+    {
+      "name": "Chair 3-5",
+      "pos": [
+        18.8,
+        1.9167
+      ],
+      "size": [
+        0.3,
+        0.25
+      ],
+      "material": "plastic"
+    },
+    {
+      "name": "Chair 3-6",
+      "pos": [
+        19.4,
+        1.9167
+      ],
+      "size": [
+        0.3,
+        0.25
+      ],
+      "material": "plastic"
+    },
+    {
+      "name": "Chair 3-7",
+      "pos": [
+        20.0,
+        1.9167
+      ],
+      "size": [
+        0.3,
+        0.25
+      ],
+      "material": "plastic"
+    },
+    {
+      "name": "Chair 3-8",
+      "pos": [
+        20.6,
+        1.9167
+      ],
+      "size": [
+        0.3,
+        0.25
+      ],
+      "material": "plastic"
+    },
+    {
+      "name": "Teaching Board",
+      "pos": [
+        3.0,
+        9.8958
+      ],
+      "size": [
+        1.5,
+        0.0417
+      ],
+      "material": "laminate"
+    },
+    {
+      "name": "Podium",
+      "pos": [
+        3.0,
+        9.5625
+      ],
+      "size": [
+        0.4,
+        0.25
+      ],
+      "material": "wood"
+    },
+    {
+      "name": "Bench 1-1",
+      "pos": [
+        0.55,
+        6.9583
+      ],
+      "size": [
+        0.6,
+        0.25
+      ],
+      "material": "wood"
+    },
+    {
+      "name": "Bench 1-2",
+      "pos": [
+        1.35,
+        6.9583
+      ],
+      "size": [
+        0.6,
+        0.25
+      ],
+      "material": "wood"
+    },
+    {
+      "name": "Bench 1-3",
+      "pos": [
+        2.15,
+        6.9583
+      ],
+      "size": [
+        0.6,
+        0.25
+      ],
+      "material": "wood"
+    },
+    {
+      "name": "Bench 1-4",
+      "pos": [
+        2.95,
+        6.9583
+      ],
+      "size": [
+        0.6,
+        0.25
+      ],
+      "material": "wood"
+    },
+    {
+      "name": "Bench 1-5",
+      "pos": [
+        3.75,
+        6.9583
+      ],
+      "size": [
+        0.6,
+        0.25
+      ],
+      "material": "wood"
+    },
+    {
+      "name": "Bench 1-6",
+      "pos": [
+        4.55,
+        6.9583
+      ],
+      "size": [
+        0.6,
+        0.25
+      ],
+      "material": "wood"
+    },
+    {
+      "name": "Bench 2-1",
+      "pos": [
+        0.55,
+        7.4583
+      ],
+      "size": [
+        0.6,
+        0.25
+      ],
+      "material": "wood"
+    },
+    {
+      "name": "Bench 2-2",
+      "pos": [
+        1.35,
+        7.4583
+      ],
+      "size": [
+        0.6,
+        0.25
+      ],
+      "material": "wood"
+    },
+    {
+      "name": "Bench 2-3",
+      "pos": [
+        2.15,
+        7.4583
+      ],
+      "size": [
+        0.6,
+        0.25
+      ],
+      "material": "wood"
+    },
+    {
+      "name": "Bench 2-4",
+      "pos": [
+        2.95,
+        7.4583
+      ],
+      "size": [
+        0.6,
+        0.25
+      ],
+      "material": "wood"
+    },
+    {
+      "name": "Bench 2-5",
+      "pos": [
+        3.75,
+        7.4583
+      ],
+      "size": [
+        0.6,
+        0.25
+      ],
+      "material": "wood"
+    },
+    {
+      "name": "Bench 2-6",
+      "pos": [
+        4.55,
+        7.4583
+      ],
+      "size": [
+        0.6,
+        0.25
+      ],
+      "material": "wood"
+    },
+    {
+      "name": "Chair 1-1",
+      "pos": [
+        0.4,
+        7.7083
+      ],
+      "size": [
+        0.3,
+        0.25
+      ],
+      "material": "plastic"
+    },
+    {
+      "name": "Chair 1-2",
+      "pos": [
+        1.0,
+        7.7083
+      ],
+      "size": [
+        0.3,
+        0.25
+      ],
+      "material": "plastic"
+    },
+    {
+      "name": "Chair 1-3",
+      "pos": [
+        1.6,
+        7.7083
+      ],
+      "size": [
+        0.3,
+        0.25
+      ],
+      "material": "plastic"
+    },
+    {
+      "name": "Chair 1-4",
+      "pos": [
+        2.2,
+        7.7083
+      ],
+      "size": [
+        0.3,
+        0.25
+      ],
+      "material": "plastic"
+    },
+    {
+      "name": "Chair 1-5",
+      "pos": [
+        2.8,
+        7.7083
+      ],
+      "size": [
+        0.3,
+        0.25
+      ],
+      "material": "plastic"
+    },
+    {
+      "name": "Chair 1-6",
+      "pos": [
+        3.4,
+        7.7083
+      ],
+      "size": [
+        0.3,
+        0.25
+      ],
+      "material": "plastic"
+    },
+    {
+      "name": "Chair 1-7",
+      "pos": [
+        4.0,
+        7.7083
+      ],
+      "size": [
+        0.3,
+        0.25
+      ],
+      "material": "plastic"
+    },
+    {
+      "name": "Chair 1-8",
+      "pos": [
+        4.6,
+        7.7083
+      ],
+      "size": [
+        0.3,
+        0.25
+      ],
+      "material": "plastic"
+    },
+    {
+      "name": "Chair 2-1",
+      "pos": [
+        0.4,
+        8.2083
+      ],
+      "size": [
+        0.3,
+        0.25
+      ],
+      "material": "plastic"
+    },
+    {
+      "name": "Chair 2-2",
+      "pos": [
+        1.0,
+        8.2083
+      ],
+      "size": [
+        0.3,
+        0.25
+      ],
+      "material": "plastic"
+    },
+    {
+      "name": "Chair 2-3",
+      "pos": [
+        1.6,
+        8.2083
+      ],
+      "size": [
+        0.3,
+        0.25
+      ],
+      "material": "plastic"
+    },
+    {
+      "name": "Chair 2-4",
+      "pos": [
+        2.2,
+        8.2083
+      ],
+      "size": [
+        0.3,
+        0.25
+      ],
+      "material": "plastic"
+    },
+    {
+      "name": "Chair 2-5",
+      "pos": [
+        2.8,
+        8.2083
+      ],
+      "size": [
+        0.3,
+        0.25
+      ],
+      "material": "plastic"
+    },
+    {
+      "name": "Chair 2-6",
+      "pos": [
+        3.4,
+        8.2083
+      ],
+      "size": [
+        0.3,
+        0.25
+      ],
+      "material": "plastic"
+    },
+    {
+      "name": "Chair 2-7",
+      "pos": [
+        4.0,
+        8.2083
+      ],
+      "size": [
+        0.3,
+        0.25
+      ],
+      "material": "plastic"
+    },
+    {
+      "name": "Chair 2-8",
+      "pos": [
+        4.6,
+        8.2083
+      ],
+      "size": [
+        0.3,
+        0.25
+      ],
+      "material": "plastic"
+    },
+    {
+      "name": "Teaching Board",
+      "pos": [
+        8.5,
+        9.8958
+      ],
+      "size": [
+        1.5,
+        0.0417
+      ],
+      "material": "laminate"
+    },
+    {
+      "name": "Podium",
+      "pos": [
+        8.5,
+        9.5625
+      ],
+      "size": [
+        0.4,
+        0.25
+      ],
+      "material": "wood"
+    },
+    {
+      "name": "Chair 1-1",
+      "pos": [
+        6.4,
+        6.9583
+      ],
+      "size": [
+        0.3,
+        0.25
+      ],
+      "material": "plastic"
+    },
+    {
+      "name": "Chair 1-2",
+      "pos": [
+        7.0,
+        6.9583
+      ],
+      "size": [
+        0.3,
+        0.25
+      ],
+      "material": "plastic"
+    },
+    {
+      "name": "Chair 1-3",
+      "pos": [
+        7.6,
+        6.9583
+      ],
+      "size": [
+        0.3,
+        0.25
+      ],
+      "material": "plastic"
+    },
+    {
+      "name": "Chair 1-4",
+      "pos": [
+        8.2,
+        6.9583
+      ],
+      "size": [
+        0.3,
+        0.25
+      ],
+      "material": "plastic"
+    },
+    {
+      "name": "Chair 1-5",
+      "pos": [
+        8.8,
+        6.9583
+      ],
+      "size": [
+        0.3,
+        0.25
+      ],
+      "material": "plastic"
+    },
+    {
+      "name": "Chair 1-6",
+      "pos": [
+        9.4,
+        6.9583
+      ],
+      "size": [
+        0.3,
+        0.25
+      ],
+      "material": "plastic"
+    },
+    {
+      "name": "Chair 2-1",
+      "pos": [
+        6.4,
+        7.4583
+      ],
+      "size": [
+        0.3,
+        0.25
+      ],
+      "material": "plastic"
+    },
+    {
+      "name": "Chair 2-2",
+      "pos": [
+        7.0,
+        7.4583
+      ],
+      "size": [
+        0.3,
+        0.25
+      ],
+      "material": "plastic"
+    },
+    {
+      "name": "Chair 2-3",
+      "pos": [
+        7.6,
+        7.4583
+      ],
+      "size": [
+        0.3,
+        0.25
+      ],
+      "material": "plastic"
+    },
+    {
+      "name": "Chair 2-4",
+      "pos": [
+        8.2,
+        7.4583
+      ],
+      "size": [
+        0.3,
+        0.25
+      ],
+      "material": "plastic"
+    },
+    {
+      "name": "Chair 2-5",
+      "pos": [
+        8.8,
+        7.4583
+      ],
+      "size": [
+        0.3,
+        0.25
+      ],
+      "material": "plastic"
+    },
+    {
+      "name": "Chair 2-6",
+      "pos": [
+        9.4,
+        7.4583
+      ],
+      "size": [
+        0.3,
+        0.25
+      ],
+      "material": "plastic"
+    },
+    {
+      "name": "Chair 3-1",
+      "pos": [
+        6.4,
+        7.9583
+      ],
+      "size": [
+        0.3,
+        0.25
+      ],
+      "material": "plastic"
+    },
+    {
+      "name": "Chair 3-2",
+      "pos": [
+        7.0,
+        7.9583
+      ],
+      "size": [
+        0.3,
+        0.25
+      ],
+      "material": "plastic"
+    },
+    {
+      "name": "Chair 3-3",
+      "pos": [
+        7.6,
+        7.9583
+      ],
+      "size": [
+        0.3,
+        0.25
+      ],
+      "material": "plastic"
+    },
+    {
+      "name": "Chair 3-4",
+      "pos": [
+        8.2,
+        7.9583
+      ],
+      "size": [
+        0.3,
+        0.25
+      ],
+      "material": "plastic"
+    },
+    {
+      "name": "Chair 3-5",
+      "pos": [
+        8.8,
+        7.9583
+      ],
+      "size": [
+        0.3,
+        0.25
+      ],
+      "material": "plastic"
+    },
+    {
+      "name": "Chair 3-6",
+      "pos": [
+        9.4,
+        7.9583
+      ],
+      "size": [
+        0.3,
+        0.25
+      ],
+      "material": "plastic"
+    },
+    {
+      "name": "Teaching Board",
+      "pos": [
+        11.125,
+        7.5
+      ],
+      "size": [
+        1.5,
+        0.0417
+      ],
+      "material": "laminate"
+    },
+    {
+      "name": "Podium",
+      "pos": [
+        11.525,
+        7.5
+      ],
+      "size": [
+        0.4,
+        0.25
+      ],
+      "material": "wood"
+    },
+    {
+      "name": "Round Discussion Table",
+      "pos": [
+        13.0,
+        7.5
+      ],
+      "size": [
+        0.7,
+        0.5833
+      ],
+      "material": "wood"
+    },
+    {
+      "name": "Chair 1",
+      "pos": [
+        14.25,
+        7.5
+      ],
+      "size": [
+        0.3,
+        0.25
+      ],
+      "material": "plastic"
+    },
+    {
+      "name": "Chair 2",
+      "pos": [
+        13.625,
+        8.4042
+      ],
+      "size": [
+        0.3,
+        0.25
+      ],
+      "material": "plastic"
+    },
+    {
+      "name": "Chair 3",
+      "pos": [
+        12.375,
+        8.4042
+      ],
+      "size": [
+        0.3,
+        0.25
+      ],
+      "material": "plastic"
+    },
+    {
+      "name": "Chair 4",
+      "pos": [
+        11.75,
+        7.5
+      ],
+      "size": [
+        0.3,
+        0.25
+      ],
+      "material": "plastic"
+    },
+    {
+      "name": "Chair 5",
+      "pos": [
+        12.375,
+        6.5958
+      ],
+      "size": [
+        0.3,
+        0.25
+      ],
+      "material": "plastic"
+    },
+    {
+      "name": "Chair 6",
+      "pos": [
+        13.625,
+        6.5958
+      ],
+      "size": [
+        0.3,
+        0.25
+      ],
+      "material": "plastic"
+    },
+    {
+      "name": "Teaching Board",
+      "pos": [
+        18.5,
+        9.8958
+      ],
+      "size": [
+        1.5,
+        0.0417
+      ],
+      "material": "laminate"
+    },
+    {
+      "name": "Podium",
+      "pos": [
+        18.5,
+        9.5625
+      ],
+      "size": [
+        0.4,
+        0.25
+      ],
+      "material": "wood"
+    },
+    {
+      "name": "Chair 1-1",
+      "pos": [
+        15.4,
+        6.9583
+      ],
+      "size": [
+        0.3,
+        0.25
+      ],
+      "material": "plastic"
+    },
+    {
+      "name": "Chair 1-2",
+      "pos": [
+        16.0,
+        6.9583
+      ],
+      "size": [
+        0.3,
+        0.25
+      ],
+      "material": "plastic"
+    },
+    {
+      "name": "Chair 1-3",
+      "pos": [
+        16.6,
+        6.9583
+      ],
+      "size": [
+        0.3,
+        0.25
+      ],
+      "material": "plastic"
+    },
+    {
+      "name": "Chair 1-4",
+      "pos": [
+        17.2,
+        6.9583
+      ],
+      "size": [
+        0.3,
+        0.25
+      ],
+      "material": "plastic"
+    },
+    {
+      "name": "Chair 1-5",
+      "pos": [
+        17.8,
+        6.9583
+      ],
+      "size": [
+        0.3,
+        0.25
+      ],
+      "material": "plastic"
+    },
+    {
+      "name": "Chair 1-6",
+      "pos": [
+        18.4,
+        6.9583
+      ],
+      "size": [
+        0.3,
+        0.25
+      ],
+      "material": "plastic"
+    },
+    {
+      "name": "Chair 1-7",
+      "pos": [
+        19.0,
+        6.9583
+      ],
+      "size": [
+        0.3,
+        0.25
+      ],
+      "material": "plastic"
+    },
+    {
+      "name": "Chair 1-8",
+      "pos": [
+        19.6,
+        6.9583
+      ],
+      "size": [
+        0.3,
+        0.25
+      ],
+      "material": "plastic"
+    },
+    {
+      "name": "Chair 1-9",
+      "pos": [
+        20.2,
+        6.9583
+      ],
+      "size": [
+        0.3,
+        0.25
+      ],
+      "material": "plastic"
+    },
+    {
+      "name": "Chair 1-10",
+      "pos": [
+        20.8,
+        6.9583
+      ],
+      "size": [
+        0.3,
+        0.25
+      ],
+      "material": "plastic"
+    },
+    {
+      "name": "Chair 2-1",
+      "pos": [
+        15.4,
+        7.4583
+      ],
+      "size": [
+        0.3,
+        0.25
+      ],
+      "material": "plastic"
+    },
+    {
+      "name": "Chair 2-2",
+      "pos": [
+        16.0,
+        7.4583
+      ],
+      "size": [
+        0.3,
+        0.25
+      ],
+      "material": "plastic"
+    },
+    {
+      "name": "Chair 2-3",
+      "pos": [
+        16.6,
+        7.4583
+      ],
+      "size": [
+        0.3,
+        0.25
+      ],
+      "material": "plastic"
+    },
+    {
+      "name": "Chair 2-4",
+      "pos": [
+        17.2,
+        7.4583
+      ],
+      "size": [
+        0.3,
+        0.25
+      ],
+      "material": "plastic"
+    },
+    {
+      "name": "Chair 2-5",
+      "pos": [
+        17.8,
+        7.4583
+      ],
+      "size": [
+        0.3,
+        0.25
+      ],
+      "material": "plastic"
+    },
+    {
+      "name": "Chair 2-6",
+      "pos": [
+        18.4,
+        7.4583
+      ],
+      "size": [
+        0.3,
+        0.25
+      ],
+      "material": "plastic"
+    },
+    {
+      "name": "Chair 2-7",
+      "pos": [
+        19.0,
+        7.4583
+      ],
+      "size": [
+        0.3,
+        0.25
+      ],
+      "material": "plastic"
+    },
+    {
+      "name": "Chair 2-8",
+      "pos": [
+        19.6,
+        7.4583
+      ],
+      "size": [
+        0.3,
+        0.25
+      ],
+      "material": "plastic"
+    },
+    {
+      "name": "Chair 2-9",
+      "pos": [
+        20.2,
+        7.4583
+      ],
+      "size": [
+        0.3,
+        0.25
+      ],
+      "material": "plastic"
+    },
+    {
+      "name": "Chair 2-10",
+      "pos": [
+        20.8,
+        7.4583
+      ],
+      "size": [
+        0.3,
+        0.25
+      ],
+      "material": "plastic"
+    },
+    {
+      "name": "Chair 3-1",
+      "pos": [
+        15.4,
+        7.9583
+      ],
+      "size": [
+        0.3,
+        0.25
+      ],
+      "material": "plastic"
+    },
+    {
+      "name": "Chair 3-2",
+      "pos": [
+        16.0,
+        7.9583
+      ],
+      "size": [
+        0.3,
+        0.25
+      ],
+      "material": "plastic"
+    },
+    {
+      "name": "Chair 3-3",
+      "pos": [
+        16.6,
+        7.9583
+      ],
+      "size": [
+        0.3,
+        0.25
+      ],
+      "material": "plastic"
+    },
+    {
+      "name": "Chair 3-4",
+      "pos": [
+        17.2,
+        7.9583
+      ],
+      "size": [
+        0.3,
+        0.25
+      ],
+      "material": "plastic"
+    },
+    {
+      "name": "Chair 3-5",
+      "pos": [
+        17.8,
+        7.9583
+      ],
+      "size": [
+        0.3,
+        0.25
+      ],
+      "material": "plastic"
+    },
+    {
+      "name": "Chair 3-6",
+      "pos": [
+        18.4,
+        7.9583
+      ],
+      "size": [
+        0.3,
+        0.25
+      ],
+      "material": "plastic"
+    },
+    {
+      "name": "Chair 3-7",
+      "pos": [
+        19.0,
+        7.9583
+      ],
+      "size": [
+        0.3,
+        0.25
+      ],
+      "material": "plastic"
+    },
+    {
+      "name": "Chair 3-8",
+      "pos": [
+        19.6,
+        7.9583
+      ],
+      "size": [
+        0.3,
+        0.25
+      ],
+      "material": "plastic"
+    },
+    {
+      "name": "Chair 3-9",
+      "pos": [
+        20.2,
+        7.9583
+      ],
+      "size": [
+        0.3,
+        0.25
+      ],
+      "material": "plastic"
+    },
+    {
+      "name": "Chair 3-10",
+      "pos": [
+        20.8,
+        7.9583
+      ],
+      "size": [
+        0.3,
+        0.25
+      ],
+      "material": "plastic"
+    }
+  ],
+  "access_points": [
+    {
+      "name": "Main Entry AP",
+      "pos": [
+        1.0,
+        5.0
+      ]
+    },
+    {
+      "name": "North Wing AP",
+      "pos": [
+        11.0,
+        9.5833
+      ]
+    },
+    {
+      "name": "South Wing AP",
+      "pos": [
+        21.0,
+        0.4167
+      ]
+    }
+  ]
+}

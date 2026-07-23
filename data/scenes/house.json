@@ -1,0 +1,59 @@
+{
+  "rooms": {
+    "LivingRoom": {
+      "corners": [[0, 0], [5, 0], [5, 4], [0, 4]],
+      "walls": [
+        {"segment": [[0, 0], [5, 0]], "material": "drywall"},
+        {"segment": [[5, 0], [5, 4]], "material": "brick"},
+        {"segment": [[5, 4], [0, 4]], "material": "drywall"},
+        {"segment": [[0, 4], [0, 0]], "material": "brick"}
+      ]
+    },
+    "Kitchen": {
+      "corners": [[5, 0], [8, 0], [8, 4], [5, 4]],
+      "walls": [
+        {"segment": [[5, 0], [8, 0]], "material": "drywall"},
+        {"segment": [[8, 0], [8, 4]], "material": "brick"},
+        {"segment": [[8, 4], [5, 4]], "material": "drywall"},
+        {"segment": [[5, 4], [5, 0]], "material": "brick"}
+      ]
+    },
+    "Bedroom": {
+      "corners": [[0, 4], [4, 4], [4, 8], [0, 8]],
+      "walls": [
+        {"segment": [[0, 4], [4, 4]], "material": "drywall"},
+        {"segment": [[4, 4], [4, 8]], "material": "brick"},
+        {"segment": [[4, 8], [0, 8]], "material": "drywall"},
+        {"segment": [[0, 8], [0, 4]], "material": "brick"}
+      ]
+    },
+    "Bathroom": {
+      "corners": [[4, 4], [5, 4], [5, 6], [4, 6]],
+      "walls": [
+        {"segment": [[4, 4], [5, 4]], "material": "drywall"},
+        {"segment": [[5, 4], [5, 6]], "material": "tile"},
+        {"segment": [[5, 6], [4, 6]], "material": "drywall"},
+        {"segment": [[4, 6], [4, 4]], "material": "tile"}
+      ]
+    },
+    "DiningRoom": {
+      "corners": [[5, 4], [9, 4], [9, 8], [5, 8]],
+      "walls": [
+        {"segment": [[5, 4], [9, 4]], "material": "drywall"},
+        {"segment": [[9, 4], [9, 8]], "material": "brick"},
+        {"segment": [[9, 8], [5, 8]], "material": "drywall"},
+        {"segment": [[5, 8], [5, 4]], "material": "brick"}
+      ]
+    }
+  },
+  "objects": [
+    {"name": "Sofa", "pos": [1, 1], "size": [2, 1], "material": "fabric"},
+    {"name": "TV", "pos": [4, 1], "size": [1, 0.5], "material": "plastic"},
+    {"name": "Fridge", "pos": [6.5, 1], "size": [0.5, 1], "material": "metal"},
+    {"name": "Bed", "pos": [1, 6], "size": [2, 1], "material": "wood"},
+    {"name": "Wardrobe", "pos": [3, 7], "size": [1, 0.5], "material": "wood"}
+  ],
+  "access_point": {
+    "pos": [2, 2]
+  }
+}

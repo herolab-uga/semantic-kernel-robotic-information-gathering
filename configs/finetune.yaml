@@ -1,0 +1,33 @@
+# Scene-LLM QLoRA fine-tuning config (Section III / Fig. 3).
+# Values marked (paper) reproduce the reported training setup.
+
+base_model: Qwen/Qwen3-8B      # small model [S]; the fine-tuned variant (FT) adapts this
+api_key_path: api_key.txt       # only needed if seeding candidates from a hosted LLM
+
+# Training worlds (paper: 200 procedurally generated indoor environments, ~10x10 m).
+dataset:
+  n_simple: 60
+  n_medium: 60
+  n_complex: 80
+  seed: 11
+  res: 42
+  n_samples: 60                 # sparse measurements per env (paper: 20-200)
+  noise_level: N1               # training noise level
+
+# Contrastive candidate search (Eq. 11).
+search:
+  k_candidates: 8               # K candidate parameterizations per env (paper)
+  softmax_tau: 1.0              # temperature tau in pi_theta(k | G_i)
+  max_replay_examples: 24
+
+# QLoRA hyperparameters (paper).
+qlora:
+  lora_rank: 16                 # r  (paper)
+  lora_alpha: 32                # alpha (paper)
+  lora_dropout: 0.05            # (paper)
+  learning_rate: 2.0e-4         # AdamW (paper)
+  per_device_batch_size: 2      # (paper)
+  grad_accum_steps: 8           # (paper)
+  epochs: 5                     # (paper)
+  max_seq_len: 4096             # (paper)
+  quantization: nf4-4bit        # 4-bit weight quantization (paper)

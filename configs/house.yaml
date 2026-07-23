@@ -1,0 +1,27 @@
+# Reconstruction config for the 6-room House (H) environment.
+scene: data/scenes/house.json
+kernels: [sk, rbf]        # add ak, dkl once the `baselines` extra is installed
+grid_resolution: 60
+n_samples: 40
+noise_db: 5.0             # N1 = 5 dB, N2 = 10 dB
+p_tx_dbm: -30.0
+path_loss_exponent: 3.0
+candidate_stride: 3
+seed: 0
+
+# Semantic-kernel defaults (world-scaled at runtime by scene_scale).
+# These are the offline fallback; the Scene-LLM overrides them per scene.
+semantic_kernel:
+  K: 3
+  priors: [0.5, 1.0, 0.7]
+  tau: 0.9
+  beta: 0.18
+  l_min: 0.20            # fraction of scene_scale
+  l_max: 1.00            # fraction of scene_scale
+  radius: 4.0
+  temperature: 0.85
+  center_mode: quantile
+  sem_variance: 20.0
+  sem_jitter: 1.0e-5
+  use_semantic_gate: true
+  use_geometry_gate: true

@@ -1,0 +1,68 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sk-gp"
+version = "0.1.0"
+description = "Semantic Kernel (SK) for Gaussian Processes: LLM-derived non-stationary priors for robotic information gathering."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [
+    { name = "Sai Krishna Ghanta" },
+    { name = "Ramviyas Parasuraman" },
+]
+keywords = [
+    "gaussian-process",
+    "semantic-kernel",
+    "informative-path-planning",
+    "large-language-models",
+    "robotics",
+    "non-stationary-kernel",
+]
+
+# Core dependencies: the semantic kernel, GP inference, simulator,
+# formal verification and temporal outlier detection all run on this stack.
+dependencies = [
+    "numpy>=1.21",
+    "scipy>=1.7",
+    "scikit-learn>=1.0",
+    "shapely>=2.0",
+    "matplotlib>=3.5",
+    "pyyaml>=5.4",
+    "tqdm>=4.60",
+]
+
+[project.optional-dependencies]
+# Learned-kernel baselines (Attentive Kernel, Deep Kernel Learning) use GPyTorch.
+baselines = [
+    "torch>=2.0",
+    "gpytorch>=1.11",
+]
+# Scene-LLM few-shot prompting via the OpenAI-compatible API.
+llm = [
+    "openai>=1.0",
+]
+# QLoRA fine-tuning of the Scene-LLM (Section III of the paper).
+finetune = [
+    "torch>=2.0",
+    "transformers>=4.40",
+    "peft>=0.10",
+    "bitsandbytes>=0.43",
+    "accelerate>=0.30",
+    "datasets>=2.18",
+]
+dev = [
+    "pytest>=7.0",
+]
+
+[project.scripts]
+sk-reconstruct = "sk_gp.experiments_cli:reconstruction_main"
+sk-finetune = "sk_gp.finetune.train:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+sk_gp = ["py.typed"]
