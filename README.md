@@ -2,15 +2,10 @@
 
 # SK: Semantic Kernel for Robotic Information Gathering
 
-**A Semantic Kernel (SK) for Gaussian Processes that integrates scene semantics into environmental field estimation.**
+**A Semantic Kernel (SK) for Gaussian Processes that integrates scene semantics into Environmental Field Estimation.**
 
 Sai Krishna Ghanta · Ramviyas Parasuraman
 Heterogeneous Robotics Lab (HeRoLab), School of Computing, University of Georgia
-
-[![python](https://img.shields.io/badge/python-3.9%2B-blue)](https://www.python.org/)
-[![license](https://img.shields.io/badge/license-MIT-green)](LICENSE)
-
-</div>
 
 ---
 
@@ -32,22 +27,6 @@ information gathering.
 > [`docs/method.md`](docs/method.md) for the full equation-by-equation code map and
 > [`Paper.pdf`](Paper.pdf) for the manuscript.
 
-> ### ⚠️ Availability & reproducibility
->
-> **The pre-trained fine-tuned Scene-LLM adapter is not released here.** Everything
-> needed to run and reproduce SK *is* provided:
->
-> - the complete **QLoRA fine-tuning pipeline** ([`sk_gp.finetune`](src/sk_gp/finetune/)) to train your own adapter, and
-> - the **curated few-shot exemplars** ([`sk_gp.scene_llm.exemplars`](src/sk_gp/scene_llm/exemplars.py) — 20 valid + 5 counter-examples) that drive the training-free few-shot variant.
->
-> So SK runs in either of the paper's two variants: **few-shot (FS)** — a pretrained
-> LLM + the provided exemplars (needs an API key), or **fine-tuned (FT)** — train
-> your own adapter here and load it. What is **not** shipped is a turnkey trained
-> model, and what is deliberately disabled is running SK on the *generic offline
-> defaults* with no Scene-LLM at all — that does not reproduce the paper and can
-> underperform a stationary RBF, so those paths raise `SceneLLMParametersRequired`.
-> Everything else (simulator, RBF/AK/DKL baselines, verifier, temporal detector,
-> planner) runs with no LLM.
 
 ## Key ideas
 
@@ -208,7 +187,7 @@ pytest -q
 @inproceedings{ghanta_sk_semantic_kernel,
   title     = {SK: Semantic Kernel for Robotic Information Gathering},
   author    = {Ghanta, Sai Krishna and Parasuraman, Ramviyas},
-  booktitle = {(under review)},
+  booktitle = {Accepted for IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) 2026},
   year      = {2026}
 }
 ```
