@@ -4,6 +4,8 @@
 
 **A Semantic Kernel (SK) for Gaussian Processes that integrates scene semantics into Environmental Field Estimation.**
 
+### [▶ Watch the project video](Video_IROS.mp4)
+
 Sai Krishna Ghanta · Ramviyas Parasuraman
 Heterogeneous Robotics Lab (HeRoLab), School of Computing, University of Georgia
 
