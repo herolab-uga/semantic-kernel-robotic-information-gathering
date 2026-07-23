@@ -23,8 +23,6 @@ robustness to noise over state-of-the-art learned kernels (AK, DKL) while avoidi
 their data-intensive training — evaluated in simulation and real-world Wi-Fi RSSI
 information gathering.
 
-> [`docs/method.md`](docs/method.md) for the full equation-by-equation code map and
-> [`Paper.pdf`](Paper.pdf) for the manuscript.
 
 
 ## Key ideas
