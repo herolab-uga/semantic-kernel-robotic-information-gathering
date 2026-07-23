@@ -24,7 +24,11 @@ their data-intensive training — evaluated in simulation and real-world Wi-Fi R
 information gathering.
 
 ### Experimental Demonstration and Video
-https://github.com/user-attachments/assets/
+https://github.com/user-attachments/assets/06641291-282a-48df-8dc1-0055ba6191e5
+
+
+
+
 
 ## Key ideas
 
@@ -57,6 +61,10 @@ scene graph (.json) ─► Scene-LLM ─► Γ ─► Formal Verification (Thm 1
 
 Rendered diagrams (Fig. 2 and the Fig. 3 fine-tuning loop) are in
 [`docs/figures/architecture.md`](docs/figures/architecture.md).
+
+https://github.com/user-attachments/assets/9e35a965-4791-4466-887c-1f3186642a7d
+
+
 
 ## Installation
 
